@@ -3,7 +3,7 @@ from twilio.rest import Client
 import os
 
 # Twilio account
-account_sid = 'account_id'
+account_sid = 'ACb331f5e83df08bdaa4bb4f46a6424fb9'
 auth_token = os.environ.get("AUTH_TOKEN")
 
 # Weather API
@@ -11,8 +11,8 @@ api_key = os.environ.get("weather_api")
 weather_api = "http://api.weatherapi.com/v1/forecast.json"
 
 # my_coordinates
-MY_LAT = float()
-MY_LNG = float()
+MY_LAT = 43.216640
+MY_LNG = 27.911810
 
 parameters = {
     "q": (MY_LAT, MY_LNG),
