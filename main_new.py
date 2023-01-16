@@ -57,8 +57,8 @@ if it_will_rain:
     client = Client(account_sid, auth_token)
     message = client.messages.create(
         body="It appears to be raining today, make sure you take your umbrella!",
-        from_="+13855262452",
-        to="+359884685688"
+        from_="virtual_phone_number",
+        to="your_phone_number"
     )
     print(message.status)
 else:
